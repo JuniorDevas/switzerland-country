@@ -46,3 +46,73 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Global */
+
+body { 
+    text-wrap: balance;
+    background-color: 	#eeeeee;
+    font-family: "Poppins", serif;
+}
+
+.hero h1 { 
+    color: #D52B1E;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: 500;
+}
+
+h2 { 
+    color: #5DA9E9;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+p { 
+    font-size: 1.125rem;
+    line-height: 1.4;
+    font-weight: 300;
+}
+
+section { 
+    padding: 6.5rem 1.5rem;
+}
+
+.container { 
+    max-width: 75rem;
+    margin: auto;
+}
+
+.container--sm { 
+    max-width: 65rem;
+}
+
+.content > * + * {
+    margin-top: 1.5rem;
+}
+
+.text-bold { 
+    font-weight: 700;
+}
+
+/* Hero */
+
+
+/* Atrações */
+
+.atracoes { 
+    background-color: #ffffff;
+}
+
+/* Gastronomia */
+
+/* Dicas */
+
+.dicas { 
+    background: url(./bg-suica.png) no-repeat center / cover;
+    color: #fff;
+}
+
+.dicas h2  {
+    color: #fff;
+}
